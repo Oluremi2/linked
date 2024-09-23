@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  
+  }
+
+  .topcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  } 
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1,h2{
+  font-weight: 300;
+  height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+  }
+
+.navbar {
+    background-color:#047aed;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+  }
+
+ .navbar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+ .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .navbar ul a:hover {
+    border-bottom: 2px #002240 solid;
+  } 
+
+.logo{
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}  
+
+
+.upper{
+    height: 400px;
+    background-color:#047aed;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding: 18px 60px;
+    margin-top: -16px;
+    margin-bottom: 20px;
+}
+
+.upper h1 {
+    font-size: 40px;
+ }
+  
+ .upper p {
+    margin: 20px 0;
+}
+
+.form{
+background-color: #fff; 
+display:flex; 
+padding: 20px 16px;
+margin: 18px 16px; 
+margin-top: 26px;
+box-shadow:6px 6px 1px black;
+flex-direction: column; 
+border-radius: 5px;
+color: #002240;
+} 
+.grid{
+  display: flex;
+  flex-direction: row;
+}
+
+.formcontrol{
+ display: flex;
+ padding: 1px 0;
+margin: 1px;
+border-bottom:14px ;
+margin-bottom: 2px;
+padding-bottom:1px solid black ;
+}
+
+input{
+  border: none;
+  padding: 3px;
+}
+
+.showcase-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 18px 16px;
+  margin-top: 20px;
+}
+
+.feat{
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 6px 18px;
+  color: #fff;
+}
+
+.first{
+  padding: 20px;
+}
+
+.container{
+ display: flex; 
+ flex-direction: column;
+ align-items: center;
+}
+
+.top-one{
+  display: flex;
+  align-items: center;
+}
+.second .containergrid .img{
+  height: 100px;
+}
